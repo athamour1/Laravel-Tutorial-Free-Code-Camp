@@ -26,3 +26,7 @@ php artisan serv
 - install php (7.3), nodejs (10), npm (6.9), sqlite (3), php7.3-sqlite3
 
 - <b>for the missing app.css</b> = composer require laravel/ui && php artisan ui vue && npm install && npm run dev (for app css refresh run <b>npm run dev</b>)
+
+## Video Time Stamp
+
+### 42:31 / 4:25:04
