@@ -11,13 +11,9 @@
 
 npm install && npm run dev && composer update && php artisan migrate
 
-
-
 ## Start Server
 
 php artisan serv
-
-
 
 ## Differences from Tutorial
 
@@ -26,6 +22,10 @@ php artisan serv
 - install php (7.3), nodejs (10), npm (6.9), sqlite (3), php7.3-sqlite3
 
 - <b>for the missing app.css</b> = composer require laravel/ui && php artisan ui vue && npm install && npm run dev (for app css refresh run <b>npm run dev</b>)
+
+## Database migration
+
+php artisan migrate:fresh (to recreate everything)
 
 ## Video Time Stamp
 
