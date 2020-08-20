@@ -29,4 +29,4 @@ php artisan migrate:fresh (to recreate everything)
 
 ## Video Time Stamp
 
-### 42:31 / 4:25:04
+### 1:28:38 / 4:25:04

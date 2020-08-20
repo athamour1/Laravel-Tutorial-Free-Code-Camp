@@ -13,9 +13,9 @@
                 <div class='pr-5'><strong>45k</strong> followers</div>
                 <div class='pr-5'><strong>234</strong> following</div>
             </div>
-            <div class="pt-2"><strong>freeCodeCamp.org</strong></div>
-            <div class="pt-2">We're a global community of millions of people learning to code together. We're an open source, donor-supported, 501(c)(3) nonprofit.</div>
-            <div class="pt-2"><a href="www.freecodecamp.org" target="blank">www.freecodecamp.org</a></div>
+            <div class="pt-2"><strong>{{ $user->profile->title }}</strong></div>
+            <div class="pt-2">{{ $user->profile->description }}</div>
+            <div class="pt-2"><a href={{ $user->profile->url }} target="blank">{{ $user->profile->url }}</a></div>
         </div>
     </div>
     <div class="row">
